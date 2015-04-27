@@ -1,0 +1,43 @@
+/*
+    Pattern authentificator v 1.0
+    Author: Aleksandar Predic
+*/
+
+
+/* Style on login page */
+#patternHolder {
+    margin: 8px 0px 15px 0px;
+}
+
+.forget-pattern {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+/* Admin style */
+.profile-php .pattern_auth_user,
+.user-edit-php .pattern_auth_user {
+    max-width: 440px;
+    border: 1px solid #DDD;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.profile-php #patternHolder,
+.user-edit-php #patternHolder {
+    margin: 0 auto 30px auto;
+}
+
+.profile-php #pattern_auth,
+.user-edit-php #pattern_auth {
+    width: 100px;
+}
+
+.profile-php .inline-block,
+.user-edit-php .inline-block {
+    display: inline-block;
+}
+
+
